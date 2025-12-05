@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only ./src/app.ts",
     "build": "tsc",
+    "test": "echo \"Nenhum teste configurado\"",
     "start": "node dist/app.js"
   },
   "keywords": [],
