@@ -106,7 +106,7 @@ jobs:
             docker push "$IMAGE:$VERSION"
           fi
 
-      # 10) DEPLOY NO RENDERr
+      # 10) DEPLOY NO RENDER
       - name: 🚀 Deploy no Render
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
